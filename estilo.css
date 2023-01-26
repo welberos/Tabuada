@@ -146,7 +146,8 @@ section p {
 }
 
 #ctlNumber,
-#tab{
+#tab,
+option{
   position: inherit;
   display: flex;
   justify-content: center;
