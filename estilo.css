@@ -146,7 +146,13 @@ section p {
 }
 
 #ctlNumber,
-#tab,
+#tab{
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: var(--ff-texting);
+}
+
 option{
   position: inherit;
   display: flex;
