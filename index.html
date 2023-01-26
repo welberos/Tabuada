@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabuada </title>
+  <link rel="stylesheet" href="estilo.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Tabuada</h1>
+  </header>
+  <section>
+    <p><b>Operações Básicas:</b> 
+      <div id="inputs">
+        <label for="ad" id="radios">
+          <input type="radio" name="radop" id="ad" checked>
+          <span >Adição</span>
+        </label>
+        
+        <label for="subt" id="radios">
+          <input type="radio" name="radop" id="subt">
+          <Span >Subtração</Span>
+        </label>
+
+        <label for="multip" id="radios">
+          <input type="radio" name="radop" id="multip">
+          <span >Multiplicação</span>
+        </label>
+        
+        <label for="div" id="radios">
+          <input type="radio" name="radop" id="div">
+          <span >Divisão</span>
+        </label>
+      </div>
+    </p>
+
+    <div id="ctlNumber">
+      <p><b>Número:</b> <input  name="num" id="txtn">
+      <input type="button" value="Gerar Tabuada" onclick="tabuada()" id="btn"></p>
+    </div>
+
+    <div id="tab">
+      <p><b>Digite um número acima:</b> </p>
+      <select name="tabuada" id="seltab" size="12">
+        <option>  </option>
+      </select>
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; CursoemVideo</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
